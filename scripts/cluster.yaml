@@ -1,0 +1,45 @@
+__default__:
+    h_vmem: 2G
+    h_rt:   01:00:00
+    submission_string: ""
+    tmem: 2G
+star_index_human:
+    submission_string: "-pe smp 8 -R y"
+    h_vmem:   6G
+    tmem:   6G
+    h_rt: 14:00:00
+download_sra_pe:
+    submission_string: "-pe smp 8 -R y" 
+    h_vmem: 8G
+    tmem: 8G  
+    h_rt: 08:00:00
+download_sra_se:
+    submission_string: "-pe smp 8 -R y" 
+    h_vmem: 8G
+    tmem: 8G  
+    h_rt: 08:00:00
+fastp_pe:
+    submission_string: "-pe smp 2 -R y"
+    h_vmem:   6G
+    tmem:   6G
+    h_rt: 03:00:00
+fastp_se:
+    submission_string: "-pe smp 2 -R y"
+    h_vmem:   6G
+    tmem:   6G
+    h_rt: 03:00:00
+star_human:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 12:00:00
+bedtools_bamtofastq:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   2G
+    tmem:   2G
+    h_rt: 02:00:00
+star_virus:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 02:00:00

@@ -1,0 +1,4 @@
+﻿sample,run,fastq_1,fastq_2,bam
+hello_hi,SRR16948803,,,
+testing_fastp,,/SAN/vyplab/HuRNASeq/VIRAL_DETECTION_TEST/EBV/VIRTUS2/data/ERR3240355_1.fastq.gz,/SAN/vyplab/HuRNASeq/VIRAL_DETECTION_TEST/EBV/VIRTUS2/data/ERR3240355_2.fastq.gz,
+testing_bam,,,,/SAN/vyplab/first_weeks/COVID_BRAIN/VIRTUS2_snakemake/results/human/SRR16948790.Aligned.sortedByCoord.out.bam

@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in rule kz_filter_pe in file /home/annbrown/vyplab/first_weeks/github_test/workflows/../rules/kz_filter.smk, line 6:
+Missing input files for rule kz_filter_pe:
+    output: results/unmapped/sample_random_kz_1.fq, results/unmapped/sample_random_kz_2.fq
+    wildcards: sample=sample_random
+    affected files:
+        results/unmapped/sample_random_2.fq
+        results/unmapped/sample_random_1.fq
